@@ -1,6 +1,9 @@
-<p align="center">
-  <img src="./images/icon128.png">
-</p>
-<h1 align="center">Chzzk Adblock</h1>
-<p align="center">치지직에서 광고를 제거합니다.</p>
+# Chzzk Adblock
+치지직에서 광고를 제거하는 크롬 확장프로그램입니다.
 
+
+# 설치방법
+1. Download ZIP을 눌러 전체 코드를 다운 받고, 압축을 해제합니다.
+2. 브라우저에서 확장 프로그램 설정에 들어갑니다.
+3. 상단에 개발자 모드를 누르고 '압축해제된 확장 프로그램을 로드합니다.'를 누릅니다.
+4. 압축 해제한 폴더를 선택합니다.
