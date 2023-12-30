@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Chzzk Adblock",
+  "version": "1.0.0",
+  "description": "치지직에서 광고를 제거합니다.",
+  "action": {
+    "default_title": "Adblock for Chzzk",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": [
+    "storage", "activeTab"
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches" : ["*://chzzk.naver.com/*"],
+      "js" : ["index.js"]
+    }
+  ]
+}  

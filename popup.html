@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Chzzk Adblock</title>
+  <style>
+    body{
+      width: 350px;
+      height: 225px;
+      padding: 10px;
+      text-align: center;
+      user-select: none;
+    }
+    img{
+      margin-left: -24px;
+      margin-bottom: -12px;
+    }
+    p{
+      text-align: end;
+    }
+    fieldset{
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1><img src="./images/icon48.png" alt="icon48.png"> Chzzk Adblock</h1>
+  <p>v1.0.0</p>
+  <fieldset>
+    <legend>설정</legend>
+    <label><input type="checkbox" name="block-video" id="block-video"> 영상 광고 차단</label><br>
+    <label><input type="checkbox" name="block-popup" id="block-popup"> 팝업 알림 차단</label><br>
+    <br>※ 설정은 새로고침 후 적용됩니다.
+  </fieldset>
+  <script src="popup.js"></script>
+</body>
+</html>
